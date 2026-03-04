@@ -25,7 +25,7 @@ When users reply to older iMessage messages, OpenClaw doesn't provide the AI wit
   "reply_to": {
     "message_id": "1B5B6389-FDD2-4E9A-926B-35F4250AA986",
     "text": "Nice. Ok new topic. A few days ago we identified...",
-    "sender": "+18054551957", 
+    "sender": "+15551234567", 
     "created_at": "2026-03-04T18:53:42.565Z"
   }
 }
@@ -55,7 +55,7 @@ $ imsg history --chat-id 6 --limit 3 --json
   "thread_originator_guid": "1B5B6389-FDD2-4E9A-926B-35F4250AA986",
   "text": "I'm replying to a message from earlier this week.",
   "guid": "603D027E-872B-4A2E-A2B9-515D212D744E",
-  "sender": "+18054551957",
+  "sender": "+15551234567",
   "created_at": "2026-03-04T18:53:59.806Z"
 }
 ```
@@ -65,7 +65,7 @@ $ imsg history --chat-id 6 --limit 3 --json
 {
   "text": "Nice. Ok new topic. A few days ago we identified a gap...",
   "guid": "1B5B6389-FDD2-4E9A-926B-35F4250AA986",  // ← This matches thread_originator_guid
-  "sender": "+18054551957",
+  "sender": "+15551234567",
   "created_at": "2026-03-04T18:53:42.565Z"
 }
 ```

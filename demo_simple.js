@@ -9,7 +9,7 @@ const actualMessages = [
     id: 1181,
     guid: "FB835BD3-DE26-4959-AF42-7A7676685C2E",
     chat_id: 6,
-    sender: "+18054551957",
+    sender: "+15551234567",
     text: "Nice. Ok new topic. A few days ago we identified a gap in open claw skills, specifically with iMessage, when I \"reply\" to an old message you don't get the context of what that message said. I would like you to propose a code fix, write the code, solid tests, a read me explaining the why, prove that it works, and then submit a report to the correct open source GitHub repo. Let me demo the bug for you real quick by replying to an old message",
     is_from_me: false,
     created_at: "2026-03-04T18:53:42.565Z"
@@ -18,7 +18,7 @@ const actualMessages = [
     id: 1182,
     guid: "1EAC2724-5A9B-4E05-9249-19FE981CAA53",
     chat_id: 6,
-    sender: "+18054551957",
+    sender: "+15551234567",
     text: "Excellent idea! This is a real usability gap that would benefit the whole OpenClaw community. I'm ready to observe the issue and then build a comprehensive solution.",
     is_from_me: true,
     created_at: "2026-03-04T18:53:58.272Z"
@@ -27,7 +27,7 @@ const actualMessages = [
     id: 1183,
     guid: "603D027E-872B-4A2E-A2B9-515D212D744E",
     chat_id: 6,
-    sender: "+18054551957",
+    sender: "+15551234567",
     text: "I'm replying to a message from earlier this week.",
     is_from_me: false,
     created_at: "2026-03-04T18:53:59.806Z",
