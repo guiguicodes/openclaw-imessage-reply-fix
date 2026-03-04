@@ -1,0 +1,67 @@
+{
+  "name": "openclaw-imessage-reply-fix",
+  "version": "1.0.0",
+  "description": "Fix for missing reply context in OpenClaw iMessage integration",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src tests --ext .ts",
+    "lint:fix": "eslint src tests --ext .ts --fix",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx watch src/index.ts",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
+  },
+  "keywords": [
+    "openclaw",
+    "imessage",
+    "messaging",
+    "reply",
+    "context",
+    "threading",
+    "ai",
+    "assistant"
+  ],
+  "author": "Guillaume De Zwirek <guillaume.dezwirek@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiguicodes/openclaw-imessage-reply-fix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw/openclaw/issues"
+  },
+  "homepage": "https://github.com/guiguicodes/openclaw-imessage-reply-fix#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
